@@ -12,7 +12,7 @@ import subprocess
 subprocess.run(["pip", "install", "openai"])
 subprocess.run(["pip", "install", "streamlit"])
 subprocess.run(["pip", "install", "fitz"])
-subprocess.run(["sudo", "apt", "install", "texlive"])
+subprocess.run(["pip", "install", "texlive"])
 subprocess.run(["pip", "install", "python-docx"])
 subprocess.run(["pip", "install", "streamlit"])
 
